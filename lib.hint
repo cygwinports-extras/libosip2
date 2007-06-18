@@ -1,0 +1,5 @@
+category: Net
+requires: cygwin
+external-source: libosip2
+sdesc: "GNU SIP library (runtime)"
+ldesc: "The GNU oSIP library is an implementation of SIP - rfc3261."

@@ -1,10 +1,9 @@
 DESCRIPTION="GNU SIP library"
 HOMEPAGE="http://www.gnu.org/software/osip/"
-SRC_URI="mirror://gnu/osip/${P}.tar.gz"
-#		 mirror://gnu/osip/${P}.tar.gz.sig"
+SRC_URI="mirror://gnu/osip/${P}.tar.gz
+		 mirror://gnu/osip/${P}.tar.gz.sig"
 
-PKG_NAMES="${PN} ${PN}_3 ${PN}-devel"
-PKG_HINTS="setup rt devel"
-PKG_CONTENTS[0]='usr/share/'
+PKG_NAMES="${PN} ${PN}_3"
+PKG_HINTS="setup lib"
+PKG_CONTENTS[0]='usr/include/ usr/lib/ usr/share/'
 PKG_CONTENTS[1]='usr/bin/*.dll'
-PKG_CONTENTS[2]='usr/include/ usr/lib/'
