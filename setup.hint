@@ -1,4 +1,4 @@
 category: Net
-requires: cygwin libosip2_3
+requires: libosip2_3
 sdesc: "GNU SIP library (development)"
 ldesc: "The GNU oSIP library is an implementation of SIP - rfc3261."
